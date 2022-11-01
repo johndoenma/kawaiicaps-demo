@@ -1,0 +1,50 @@
+@import "partials/toc";
+
+
+/* GLOBAL RESETS */
+* {box-sizing: border-box;}
+
+// VARIABLES
+$color-brand-primary: #51362A;
+$color-brand-secondary: #FADCA7;
+$color-text-body: $color-brand-primary;
+$color-text-body-light: $color-brand-secondary;
+$color-text-headings: $color-brand-primary;
+$color-text-headings-light: $color-brand-secondary;
+$color-accent: rgba(207, 148, 255, 1);
+$color-accent-dark: #FCD8BD;
+$color-accent-light: rgb(225, 198, 255);
+$color-body-background: #FFF5E4;
+$color-button: #FFF5E4;
+$color-button-dark: #51362A;
+$unit-border-radius: 25px;
+
+$color-lightgrey: rgba(0, 0 ,0, .5);
+
+$font-family-body: input-serif-condensed, Georgia, serif;
+$font-family-headings: puffin-arcade-liquid, Arial, Helvetica, sans-serif;
+
+// BREAKPOINTS
+
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+// IMPORTS
+
+@import "partials/typography";
+@import "partials/helpers";
+@import "partials/button";
+@import "partials/media";
+@import "partials/layout";
+@import "partials/grid";
+@import "partials/structure";
+@import "partials/sitenav";
+@import "partials/animation";
+
+// GLOBAL SITE STYLES
+body {
+    background-color: $color-body-background;
+}
+
+

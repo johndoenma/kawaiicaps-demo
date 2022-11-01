@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>KawaiiCaps</title>
+    <meta name="description" content="Custom keyboard caps that make your desktop setup super cool!" />
+
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ADOBE FONTS-->
+    <link rel="stylesheet" href="https://use.typekit.net/rcr8fei.css">
+
+    <!-- MAIN CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header id="home" class="site-header drawer">
+        <div class="site-id">
+            <a class="logomark" href="#home">[ logo ]</a>
+
+            <h1 class="hide-visually"><a href="index.html">KawaiiCaps</a></h1>
+        </div>
+
+        <nav class="site-nav" data-navstate="closed">
+            <h2 class="menu-button">
+                <span class="hide-visually">Menu</span>
+                <svg width="30" height="30">
+                    <title>Menu</title>
+                    <rect id="menubar-top" y="0" width="30" height="3"></rect>
+                    <rect id="menubar-mid" y="8" width="30" height="3"></rect>
+                    <rect id="menubar-bottom" y="16" width="30" height="3"></rect>
+                </svg>
+            </h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#featured">Featured Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">All Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section class="hero animate-on-scroll">
+            <div class="container">
+                <h1>Custom Keycaps</h1>
+                <p>Unique keycaps hand crafted from polymer clay.</p>
+                <a href="#products" class="button">Browse Keycaps</a>
+            </div>
+        </section>
+
+        <section id="featured" class="scroll-triggered">
+
+            <div class="container">
+
+                <h2>Featured Products</h2>
+
+                [ Swiper Carousel Goes Here ]
+
+            </div>
+
+        </section>
+
+        <section id="about" class="scroll-triggered">
+            <div class="row full-width">
+                <div class="one-half push-one-half jd-contentblock-text">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam cum quibusdam, nisi porro similique commodi quae minima optio dicta, repudiandae et ipsa odio sequi laborum!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="scroll-triggered">
+            <div class="container">
+
+                <h2>All Products</h2>
+
+                <h3>Video Games</h3>
+
+                <ul class="product-cards">
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                </ul>
+
+                <h3>Sanrio Character</h3>
+
+                <ul class="product-cards">
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                </ul>
+
+                <h3>Misc</h3>
+
+                <ul class="product-cards">
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                    <li><a href="#">image goes here</a></li>
+                </ul>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <h2>Contact Us</h2>
+        [ image of computer goes here ]
+        <form action="">
+            [ form goes here ]
+        </form>
+        <nav class="site-nav">
+            <ul>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subpage.html">Subpage</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
+
+    <!--  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

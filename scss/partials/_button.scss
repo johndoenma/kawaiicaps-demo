@@ -1,0 +1,19 @@
+/* BUTTONS */
+
+.button {
+    display: inline-block;
+    background-color: $color-button;
+    color: $color-button-dark;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: $unit-border-radius;
+    text-transform: uppercase;
+    border: 2px solid $color-button-dark;
+
+    &:hover {
+        background-color: $color-button-dark;
+        color: $color-button;
+    }
+
+}
+
